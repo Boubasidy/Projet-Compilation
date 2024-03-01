@@ -1,0 +1,4 @@
+/home/etud/Bureau/compilation/build/CMakeFiles/rebuild_cache.dir
+/home/etud/Bureau/compilation/build/CMakeFiles/edit_cache.dir
+/home/etud/Bureau/compilation/build/CMakeFiles/dessin.dir
+/home/etud/Bureau/compilation/build/CMakeFiles/expressions.dir
