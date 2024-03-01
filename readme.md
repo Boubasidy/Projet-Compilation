@@ -1,8 +1,23 @@
-PROJET_THÉORIE_DES_LANGAGES_ET_COMPILATION
-BARRY Boubacar Sidy                   Groupe1
-KHTEIRA Habib                         Groupe3
+## Projet de compilation portant sur l'implementation d'un intrépreteur d'un langage de dessin de figures géometriques : carré , rectangle , ellipse , triangle , ligne , chemin , texte
 
+## pour tester ce projet , vous projet supprimer le dossier build , le recréer avec la commande : mkdir build puis cd build et tapez la commande : cmake .. pour compiler le cmakelist , puis ensuite tapez la commande make 
+## generer un nouveau build , il faut utiliser la commande ./dessin qui vous donnera la possibilité de tester le projet en ligne de commande avec les exemples suivants :
+## -------------------------------------------------------------------------------
+taille 1000 1000;
+carré 250 250 100;
+rectangle 100 100 100 200 150 200 150 100;
+triangle 400 100 50 80;
+cercle 400 400 50;
+ligne 10 10 490 490;
+chemin 10 10, 490 10, 490 490, 10 490, 10 10;
+texte 100 100 "Bonjour" "Liberation Serif";
+## --------------------------------------------------------------------------------
+## vous pouvez changer les differents dimensions sachant que la dimension : taille 1000 , 1000 represente la taille de la canva 
+## ou mettre ces exemples dans un fichier de type .txt et tapez la commande : ./dessin < file.txt 
+## -----> file.txt votre fichier 
+## --------------------------------- vous trouverez dans le dossier build un output.svg qui illustre ce exemple
 
+## --------------------------  ci-dessous quelques problèmes rencontrés ----------------------------------
 
 ##Figures:
 #problèmes:
